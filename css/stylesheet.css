@@ -1,0 +1,124 @@
+html {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 2em;
+    
+}
+
+p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    line-height: 1.5em;
+    
+}
+ 
+
+ div h1 {
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 2em;        
+     }
+ 
+
+
+.games {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+div {
+    width: 30em;
+    height:30em;
+height: auto;
+overflow: hidden;
+border-radius: 5%;
+align-items: center;
+}
+
+div:hover {
+    overflow:auto
+}
+
+
+
+
+
+
+
+ img {
+    width: 30em;
+    height: 30em;
+ }
+
+ @media only screen and (min-width: 1080px) {
+
+ h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6em;
+    
+ }
+ h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    transform: translate(0, -2em);
+
+ }
+ .games {
+
+    right: 2em;
+}
+
+section {
+    transform: translate(5em, 10em);
+    
+}
+
+p {
+    width: 70%;
+}
+
+ 
+}
+
+
+ @media only screen and (max-width: 768px){
+
+
+
+
+    h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5em;
+    
+ }
+ h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    transform: translate(0, -1em);
+
+ }
+
+ p {
+    width: 90%;
+ }
+
+ }
+
+
+
+
+
+ 
+
